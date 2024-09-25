@@ -16,3 +16,4 @@ Task 2:
 
 -MohamDahALU: sort -u ./data/satelite_temperature_data.csv | sort -k3 --field-separator="," | head -n 5 > ./analyzed/top-5-lowest-temparatures.csv
 
+-Remy-cloud: grep Rwanda ./data/satelite_temperature_data_no_duplicates.csv > ./country-heat_data.csv
